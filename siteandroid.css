@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: android;
+    src: url(fontes/idroid.otf) format(opentype);
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Luckiest+Guy&family=Oswald:wght@200..700&display=swap');
+:root{
+    --cor0:#ebe5c5;
+    --cor1:#83e1ad;
+    --cor2:#3ddc84;
+    --cor3:#2fa866;
+    --cor4:#1a5c37;
+    --cor5:#063d1e;
+    --font-padrao:arial, Verdana, Helvetica, sans-serif;
+    --font-destaque:'Bebas Neue', Cursive;
+
+}
+
+/* Configuração do título*/
+header{
+     margin-top: 0px;
+    padding-bottom: 10px;
+    background-color: #063d1e;
+    
+}
+header h1{
+    font-family: var(--font-destaque);
+    color:white;
+    text-align: center;
+    margin-top: 0px;
+    padding-bottom: 50px;
+}
+header p{
+text-align: center;
+color: white;
+font-style:normal ;
+font-family: var(--font-padrao);
+}
+
+/* configuração do menu de navegação*/
+nav{
+    font-family: var(--font-padrao);
+    background-color: #063d1e;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+a{
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+
+}
+a:hover{
+    color:rgb(255, 254, 254) ;
+    box-shadow: 10px;
+    background-color: rgba(170, 169, 169, 0.178);
+    padding: 4px;
+    border-radius: 8px;
+}
+
+/*conteúdo principal*/
+h2{
+    font-family: 'android',var(--font-padrao);
+    color: #1a5c37;
+    background-image:linear-gradient(to right,#2fa866 #3ddc84  );
+}
+
+p{
+    font-family:var(--font-padrao);
+    
+}
