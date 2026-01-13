@@ -60,13 +60,36 @@ a:hover{
 }
 
 /*conteúdo principal*/
+body{
+    background-color: #3ddc84;
+}
+main{
+    padding-top: 10px;
+    background-color: white;
+    margin-left: 60PX;
+    margin-right: 60px;
+    box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.418);
+}
 h2{
     font-family: 'android',var(--font-padrao);
     color: #1a5c37;
-    background-image:linear-gradient(to right,#2fa866 #3ddc84  );
+    background-image: linear-gradient(to right , #2fa866, #3ddc84 , #cee9da, #f8f8f6);
 }
 
 p{
     font-family:var(--font-padrao);
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    text-indent: 40px;
+    
+}
+
+img{
+    text-align: center;
+    margin-left: 800px;
+}
+
+inframe{
     
 }
