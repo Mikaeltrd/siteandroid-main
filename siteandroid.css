@@ -86,10 +86,14 @@ p{
 }
 
 img{
+    display: grid;
     text-align: center;
-    margin-left: 800px;
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
 }
-
-inframe{
+frame{
     
 }
